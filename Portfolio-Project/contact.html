@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body{color: burlywood; background-color: aqua;font-size: 23px; font-style:italic;}
+            p{font-size:1rem;color:white;}
+        </style>
+    </head>
+    <body>
+    <header>
+        <h1>Contact</h1>
+    </header>
+    <p>
+        <a href="https://github.com/feraph" target="_blank"rel="noopener">Click here to visit my GitHub profile.</a> <br><br>
+        <a href="https://t.me/@fevasg"target="_blank"rel="noopener">Message me on Telegram.</a>
+    </p>
+    <form>
+        <h3>Feedback</h3>
+        <p>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your full name"required><br><br>
+
+            <label>
+                <input type="radio" name="gender" value="Male" required> Male 
+            </label>
+            <label>
+                <input type="radio" name="gender" value="Female" required> Female
+            </label>
+            <br><br>
+            <!--gives space-->
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email address" required><br><br>
+
+           <label for="age">Age:</label>
+           <input type="number" id="age" name="age" placeholder="Enter your age"required><br><br>
+
+        </p>
+           <label for="comments">Comment:</label>
+           <textarea id="message" name="message" rows="5" cols="30" placeholder="Write your message here..."  required></textarea><br><br>
+        <!-- Submit Button -->
+           <button type="submit">Submit Feedback</button>
+    </form>
+    </body>
+</html>
+        
